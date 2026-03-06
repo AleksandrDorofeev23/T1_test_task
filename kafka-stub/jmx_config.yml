@@ -1,0 +1,7 @@
+startDelaySeconds: 0
+ssl: false
+lowercaseOutputName: true
+lowercaseOutputLabelNames: true
+whitelistObjectNames: ["java.lang:type=Memory","java.lang:type=Threading","java.lang:type=GarbageCollector,*"]
+rules:
+  - pattern: ".*"
