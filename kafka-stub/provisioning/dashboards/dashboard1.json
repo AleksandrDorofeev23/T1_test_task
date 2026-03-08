@@ -24,7 +24,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "fff77w76h998ga"
+        "uid": "prometheus"
       },
       "fieldConfig": {
         "defaults": {
@@ -121,7 +121,7 @@
     {
       "datasource": {
         "type": "influxdb",
-        "uid": "cff74b6e3ubcwc"
+        "uid": "influxdb"
       },
       "fieldConfig": {
         "defaults": {
@@ -248,7 +248,7 @@
     {
       "datasource": {
         "type": "influxdb",
-        "uid": "cff74b6e3ubcwc"
+        "uid": "influxdb"
       },
       "fieldConfig": {
         "defaults": {

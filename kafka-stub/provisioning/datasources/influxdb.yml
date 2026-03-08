@@ -3,8 +3,9 @@ apiVersion: 1
 datasources:
   - name: InfluxDB
     type: influxdb
-    access: proxy
+    access: influxdb
     url: http://influxdb:8086
+    uid: influxdb
     database: jmeterDB
     user: admin
     password: admin123

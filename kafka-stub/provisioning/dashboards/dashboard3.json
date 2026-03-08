@@ -25,7 +25,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "fff77w76h998ga"
+        "uid": "prometheus"
       },
       "fieldConfig": {
         "defaults": {
@@ -112,7 +112,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "fff77w76h998ga"
+            "uid": "prometheus"
           },
           "editorMode": "code",
           "expr": "sum(jvm_memory_used_bytes{application=\"kafka-stub\", instance=\"stub:8099\"}) by (id, area)",
@@ -132,7 +132,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "fff77w76h998ga"
+        "uid": "prometheus"
       },
       "fieldConfig": {
         "defaults": {
@@ -215,7 +215,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "fff77w76h998ga"
+            "uid": "prometheus"
           },
           "expr": "jvm_threads_current{instance=~\"$instance\"}",
           "format": "time_series",
@@ -228,7 +228,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "fff77w76h998ga"
+            "uid": "prometheus"
           },
           "expr": "jvm_threads_daemon{instance=~\"$instance\"}",
           "format": "time_series",
@@ -245,7 +245,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "fff77w76h998ga"
+        "uid": "prometheus"
       },
       "fieldConfig": {
         "defaults": {
@@ -328,7 +328,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "fff77w76h998ga"
+            "uid": "prometheus"
           },
           "expr": "jvm_gc_collection_seconds_count{instance=~\"$instance\"}",
           "format": "time_series",
@@ -346,7 +346,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "fff77w76h998ga"
+        "uid": "prometheus"
       },
       "fieldConfig": {
         "defaults": {
@@ -428,7 +428,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "fff77w76h998ga"
+            "uid": "prometheus"
           },
           "expr": "rate(jvm_gc_collection_seconds_sum{instance=~\"$instance\"}[1m])",
           "format": "time_series",
@@ -462,7 +462,7 @@
             "stub:8098"
           ]
         },
-        "datasource": "fff77w76h998ga",
+        "datasource": "prometheus",
         "includeAll": true,
         "label": "Instance",
         "multi": true,
